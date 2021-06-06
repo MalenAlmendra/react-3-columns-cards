@@ -1,0 +1,33 @@
+.sedansContainer{
+    min-height: 442px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 5px 0 0;
+    padding: 2em 54px;
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    align-content: center;
+}
+.iconContainer{
+    margin-top: 13px;
+}
+.titleContainer{
+    margin-top: 40px;
+}
+.textContainer{
+    align-self: center;
+    padding-top: 1em;
+}
+.btnSedan>button{
+    color:hsl(31, 77%, 52%);
+}
+.btnSedan>button:hover{
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+    .sedansContainer{
+        border-radius: 5px 0 0 5px;
+        min-height: 500px;
+    }
+}

@@ -1,0 +1,15 @@
+.suvsContainer{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em 48px;
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    align-content: center;
+}
+
+.btnSuvs>button{
+    color:hsl(184, 100%, 22%);
+}
+.btnSuvs>button:hover{
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
